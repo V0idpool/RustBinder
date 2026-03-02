@@ -12,6 +12,9 @@ RustBinder is a passion project that I hope to get on Steam as a Free-to-play ap
 Buy Me A Coffee: [https://buymeacoffee.com/rustforgedev](https://buymeacoffee.com/rustforgedev)
 Join the VoidLabs RustForge Discord for Support & Pack Sharing: [https://discord.gg/tfwf9Qr7rG](https://discord.gg/tfwf9Qr7rG)
 
+## Download on NexusMods
+NexusMods Page: [https://www.nexusmods.com/rust/mods/13](https://www.nexusmods.com/rust/mods/13)
+
 ## The Command Pack System
 
 * Modular Bind Profiles – Group your favorite console commands into custom .ini based Command Packs. Easily switch between **"Base Building Mode"**, **"Helicopter Flight Controls"**, or **"PvP Setup"** without manually typing commands in the F1 console or fiddling with files.
