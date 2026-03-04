@@ -6,8 +6,17 @@
 This is a comprehensive, alphabetized reference for Rust console commands (F1) used for player optimization, server administration, and cinematic tools.
 If you notice anything missing, please let me know what it is on the Discord and I will add it to the list.
 
-## **Join the VoidLabs RustForge Discord for Support:**
-[https://discord.gg/tfwf9Qr7rG](https://discord.gg/tfwf9Qr7rG)
+## Support the Project:
+RustBinder is a passion project that I hope to get on Steam as a Free-to-play app. If this tool saves you time and enhances your gameplay, consider supporting its ongoing development!
+
+Buy Me A Coffee: [https://buymeacoffee.com/rustforgedev](https://buymeacoffee.com/rustforgedev) 
+
+Join the VoidLabs RustForge Discord for Support & Pack Sharing: [https://discord.gg/tfwf9Qr7rG](https://discord.gg/tfwf9Qr7rG)
+
+## Download & Resources
+NexusMods Page: [https://www.nexusmods.com/rust/mods/13](https://www.nexusmods.com/rust/mods/13)
+
+Full Commands & Binds Reference List: [https://github.com/V0idpool/RustBinder/blob/main/Commands/RustCommandList.md](https://github.com/V0idpool/RustBinder/blob/main/Commands/RustCommandList.md)
 
 ## RustBinder Instructions
 1. Open RustBinder and choose from presets, or manually type in the command options (For Power Users)
