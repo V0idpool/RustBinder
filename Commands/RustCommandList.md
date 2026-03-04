@@ -1,32 +1,98 @@
-# RustBind Rust Console Commands Reference
-![Tool](https://img.shields.io/badge/Utility-RustBind-blue)
+# RustBinder Rust Console Commands Reference
+![Tool](https://img.shields.io/badge/Utility-RustBinder-blue)
 ![Last Updated](https://img.shields.io/badge/Updated-March%202026-brightgreen)
+<img width="1024" height="572" alt="rustbinderbanner" src="https://github.com/user-attachments/assets/33592db8-3336-45c9-8fa8-b377b357413d" />
 
 This is a comprehensive, alphabetized reference for Rust console commands (F1) used for player optimization, server administration, and cinematic tools.
 If you notice anything missing, please let me know what it is on the Discord and I will add it to the list.
 
-### **Join the RustForge Discord for Support:**
+## **Join the VoidLabs RustForge Discord for Support:**
 [https://discord.gg/tfwf9Qr7rG](https://discord.gg/tfwf9Qr7rG)
 
----
-
-## 🛠 How to Use manually or with RustBind
-
-### RustBind Instructions
-1. Open RustBind and choose from presets, or manually type in the command options (For Power Users)
+## RustBinder Instructions
+1. Open RustBinder and choose from presets, or manually type in the command options (For Power Users)
 2. Click the **"Capture Hotkey..." button and press your desired key bind and click the "Save & Apply" button.
 
 Use **Ctrl + F** on this page to find specific functions if manually adding, or when using the "Command Pack Manager" to create command pack presets (e.g., "FPS" or "Teleport").
 
-### Manual Instructions
+## Manual Instructions
 1. Press **F1** in-game to open the console.
 2. Type the command & key bind(some require a value like `0` or `1`).
 
 Use **Ctrl + F** on this page to find specific functions (e.g., "FPS" or "Teleport").
 
----
+## Full Keyboard & Mouse Key List
+Use these exact names when manually binding via `bind <key> <command>`.
 
-## 📜 Full Command List (Alphabetized)
+| Key Category | Key Name(s) |
+| :--- | :--- |
+| **Standard Letters** | `a` through `z` |
+| **Number Row** | `0` through `9` |
+| **Function Keys** | `f1` through `f12` |
+| **Mouse Buttons** | `mouse0` (Left Click), `mouse1` (Right Click), `mouse2` (Middle Click), `mouse3` (Side Button 1), `mouse4` (Side Button 2), `mousewheelup`, `mousewheeldown` |
+| **Numpad** | `keypad0` through `keypad9`, `keypadperiod`, `keypaddivide`, `keypadmultiply`, `keypadminus`, `keypadplus`, `keypadenter` |
+| **Arrows** | `up`, `down`, `left`, `right` |
+| **Modifiers** | `leftshift`, `rightshift`, `leftcontrol`, `rightcontrol`, `leftalt`, `rightalt` |
+| **Special Keys** | `space`, `return` (Enter), `escape`, `backspace`, `tab`, `capslock`, `numlock`, `scrolllock` |
+| **Navigation** | `insert`, `delete`, `home`, `end`, `pageup`, `pagedown` |
+| **Punctuation** | `` ` `` (Backtick/Tilde), `-`, `=`, `[`, `]`, `\`, `;`, `'`, `,`, `.`, `/` |
+
+## Game Input Actions Reference
+These are the internal "verbs" Rust uses for gameplay. When mapping these, you will usually prefix them with `+` (for While Held) or `~` (for Toggle).
+
+## Combat & Weapons
+| Action Name | Description |
+| :--- | :--- |
+| **attack** | Primary fire, swinging tools, or placing building blocks. |
+| **attack2** | Aiming down sights (ADS), secondary fire, or rotating blocks. |
+| **attack3** | Tertiary fire (used for some vehicle weapons or specific tools). |
+| **reload** | Reloads the currently held weapon. |
+| **lighttoggle** | Toggles weapon attachments like Flashlights and Lasers. |
+| **firemode** | Switches between semi-auto and full-auto on supported guns. |
+| **nextslot** | Cycles to the next item in your belt. |
+| **prevslot** | Cycles to the previous item in your belt. |
+| **slot1 - slot8** | Directly selects a specific hotbar or belt slot. |
+| **inventory.examineheld** | Triggers the "Inspect" animation for the held item. |
+
+## Movement & Global States
+| Action Name | Description |
+| :--- | :--- |
+| **forward** | Move forward. |
+| **backward** | Move backward. |
+| **left** | Strafe left. |
+| **right** | Strafe right. |
+| **jump** | Jump (or swim upward). |
+| **duck** | Crouch / Duck (or swim downward). |
+| **sprint** | Run / Sprint. |
+| **altlook** | Free-look (allows looking around without changing direction). |
+| **lookatradius** | Adjusts the focus of the player's interaction circle. |
+
+## Interaction, UI & Social
+| Action Name | Description |
+| :--- | :--- |
+| **use** | Interact with objects (Open doors, loot boxes, mount vehicles). |
+| **inventory.toggle** | Opens or closes the main inventory screen. |
+| **inventory.togglecrafting** | Opens or closes the crafting menu directly. |
+| **map** | Displays the world map. |
+| **voicerecord** | Push-to-talk for in-game voice chat. |
+| **chat** | Opens the text chat input box. |
+| **teamchat** | Opens text chat specifically for your team. |
+| **gestures** | Opens the gesture/emote wheel. |
+| **ping** | Places a context-sensitive marker/ping in the world. |
+| **hoverloot** | Loots items instantly by hovering the mouse over them. |
+| **notelook** | Focuses your view on a note held in your hand. |
+
+## Vehicles & Administrative
+| Action Name | Description |
+| :--- | :--- |
+| **swaptoseat 0-5** | Instantly switches to the corresponding seat in a vehicle. |
+| **push** | Used to push boats or small ground vehicles. |
+| **bicycle_rear_brake** | Applies the rear brake on bicycles. |
+| **camspeed** | Adjusts movement speed when in debugcamera (Admin only). |
+| **camlook** | Enables looking while in debugcamera (Admin only). |
+| **camyaw / campitch** | Controls rotation axes for cinematics (Admin only). |
+
+## Full Command List (Alphabetized)
 
 | Command | Description |
 | :--- | :--- |
