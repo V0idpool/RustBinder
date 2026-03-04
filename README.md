@@ -9,11 +9,14 @@ RustBinder is an advanced console variable (ConVar) and keybind manager for Rust
 ## Support the Project:
 RustBinder is a passion project that I hope to get on Steam as a Free-to-play app. If this tool saves you time and enhances your gameplay, consider supporting its ongoing development!
 
-Buy Me A Coffee: [https://buymeacoffee.com/rustforgedev](https://buymeacoffee.com/rustforgedev)
+Buy Me A Coffee: [https://buymeacoffee.com/rustforgedev](https://buymeacoffee.com/rustforgedev) 
+
 Join the VoidLabs RustForge Discord for Support & Pack Sharing: [https://discord.gg/tfwf9Qr7rG](https://discord.gg/tfwf9Qr7rG)
 
-## Download on NexusMods
+## Download & Resources
 NexusMods Page: [https://www.nexusmods.com/rust/mods/13](https://www.nexusmods.com/rust/mods/13)
+
+Full Commands & Binds Reference List: [https://github.com/V0idpool/RustBinder/blob/main/Commands/RustCommandList.md](https://github.com/V0idpool/RustBinder/blob/main/Commands/RustCommandList.md)
 
 ## The Command Pack System
 
@@ -25,7 +28,7 @@ NexusMods Page: [https://www.nexusmods.com/rust/mods/13](https://www.nexusmods.c
 ## Core Features
 
 * Visual Bindings Manager: A clean, modern user interface to view, edit, and delete your standard Rust keybinds, and advanced binding options. No more digging through messy .cfg files.
-* Smart Bind Validation: The engine automatically detects if a command is **"Stateful" (like +attack, +forward)** or **"Stateless" (like kill or combatlog)**. It intelligently forces standard commands to be **"Instant"** while allowing stateful commands to utilize **"While Held"**, **"On Release"**, or **"Toggle"** bind types.
+* Native Modifier Freedom: RustBinder fully unlocks the modern Rust console engine. Apply **Toggle (~)**, **While Held (+)**, or **On Release (-)** modifiers to almost [i]any[/i] command or Cvar. Create complex multi-action macros, batched command executions, FOV aim-downs, or cycling "Dad Joke" chat binds with zero artificial restrictions.
 * Auto-Backup System: Never lose your settings. This setting is on by default, RustBinder can automatically create timestamped backups of your keys.cfg file before applying any new saves & changes. (Useful if a mistake was made, and you need to recover from a prior file.)
 * Binding Import/Export & Backup System: Easily import, export, save a backup, or load a backup of your entire keys.cfg to custom directories, it's easy to restore a previous backup if you accidentally mess up your game settings.
 * Unsaved Changes Protection: Smart UI tracking prevents you from accidentally closing the Command Manager or the Main App while you have unsaved progress on your custom command packs. Never lose progress on accident!
