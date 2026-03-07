@@ -8,7 +8,7 @@ If you notice anything missing, please let me know what it is on the Discord and
 ---
 
 ### 🚀 Quick Navigation
-[Support](#support-the-project) | [Downloads](#download--resources) | [How to Use](#rustbinder-instructions) | [Key List](#full-keyboard--mouse-key-list) | [Input Actions](#game-input-actions-reference) | [Command List](#full-command-list-alphabetized) | [Item IDs](#item-id--shortname-reference)
+[Support](#support-the-project) | [Downloads](#download--resources) | [Instructions](#rustbinder-instructions) | [Key List](#full-keyboard--mouse-key-list) | [Input Actions](#game-input-actions-reference) | [Command List](#full-command-list-alphabetized) | [Item IDs](#item-id--shortname-reference)
 
 ---
 ## Support the Project
