@@ -7,7 +7,7 @@ This is a comprehensive, alphabetized reference for Rust console commands (F1) u
 If you notice anything missing, please let me know what it is on the Discord and I will add it to the list.
 ---
 
-### 🚀 Quick Navigation
+### Quick Navigation
 [Support](#support-the-project) | [Downloads](#download--resources) | [Instructions](#rustbinder-instructions) | [Key List](#full-keyboard--mouse-key-list) | [Input Actions](#game-input-actions-reference) | [Command List](#full-command-list-alphabetized) | [Item IDs](#item-id--shortname-reference)
 
 ---
@@ -321,6 +321,13 @@ These are the internal "verbs" Rust uses for gameplay. When mapping these, you w
 | **world.rendertunnels** | Renders a PNG of the tunnel network. |
 
 ## Item ID & Shortname Reference
+
+---
+
+**Quick Navigation:** [Resources](#resources--raw-materials) | [Weapons](#weapons-rifles--smgs) | [Ammo](#ammunition--explosives) | [Armor](#clothing--armor-pvp-gear) | [Elec](#electricity--industrial-auto-base) | [Admin](#server-admin-special-non-craftable)
+
+---
+
 Use these IDs with the `inventory.give <ID> <Quantity>` command or within your custom command packs.
 
 ## Resources & Raw Materials
