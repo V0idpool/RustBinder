@@ -5,8 +5,13 @@
 
 This is a comprehensive, alphabetized reference for Rust console commands (F1) used for player optimization, server administration, and cinematic tools.
 If you notice anything missing, please let me know what it is on the Discord and I will add it to the list.
+---
 
-## Support the Project:
+### 🚀 Quick Navigation
+[Support](#support-the-project) | [Downloads](#download--resources) | [How to Use](#rustbinder-instructions) | [Key List](#full-keyboard--mouse-key-list) | [Input Actions](#game-input-actions-reference) | [Command List](#full-command-list-alphabetized) | [Item IDs](#item-id--shortname-reference)
+
+---
+## Support the Project
 RustBinder is a passion project that I hope to get on Steam as a Free-to-play app. If this tool saves you time and enhances your gameplay, consider supporting its ongoing development!
 
 Buy Me A Coffee: [https://buymeacoffee.com/rustforgedev](https://buymeacoffee.com/rustforgedev) 
@@ -314,6 +319,290 @@ These are the internal "verbs" Rust uses for gameplay. When mapping these, you w
 | **world.renderlabs** | Renders a PNG of the Underwater Labs floor. |
 | **world.rendermap** | Renders a high-resolution PNG of the map. |
 | **world.rendertunnels** | Renders a PNG of the tunnel network. |
+
+## Item ID & Shortname Reference
+Use these IDs with the `inventory.give <ID> <Quantity>` command or within your custom command packs.
+
+## Resources & Raw Materials
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Wood | wood |
+| Stones | stones |
+| Metal Fragments | metal.fragments |
+| High Quality Metal | metal.refined |
+| Cloth | cloth |
+| Leather | leather |
+| Low Grade Fuel | lowgradefuel |
+| Scrap | scrap |
+| Sulfur | sulfur |
+| Cooked Fish | fish.cooked |
+| Animal Fat | fat.animal |
+| Bone Fragments | bone.fragments |
+| Charcoal | charcoal |
+| Crude Oil | crude.oil |
+| Diesel Fuel | diesel.fuel |
+| Metal Ore | metal.ore |
+| Sulfur Ore | sulfur.ore |
+| High Quality Metal Ore | hqm.ore |
+
+## Components (Crafting Essentials)
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Gear | gears |
+| Metal Pipe | pipe |
+| Metal Spring | spring |
+| Rifle Body | riflebody |
+| SMG Body | smgbody |
+| Semi-Automatic Body | semibody |
+| Tech Trash | techparts |
+| Empty Propane Tank | propanetank |
+| Road Signs | roadsigns |
+| Sheet Metal | sheetmetal |
+| Metal Blade | metalblade |
+| Tarp | tarp |
+| Rope | rope |
+| Sewing Kit | sewingkit |
+| Electric Fuse | fuse |
+
+## Construction & Building Blocks
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Building Plan | building.planner |
+| Hammer | hammer |
+| Tool Cupboard | cupboard.tool |
+| Wooden Door | door.hinged.wood |
+| Sheet Metal Door | door.hinged.metal |
+| Armored Door | door.hinged.toptier |
+| Garage Door | wall.frame.garagedoor |
+| Ladder Hatch | floor.ladder.hatch |
+| Floor Grill | floor.grill |
+| Reinforced Glass Window | wall.window.glass.reinforced |
+| Metal Window Bars | wall.window.bars.metal |
+| Wooden Ladder | ladder.wooden.wall |
+
+## Tools & Utility
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Stone Pickaxe | pickaxe.stone |
+| Stone Hatchet | hatchet.stone |
+| Pickaxe | pickaxe.metal |
+| Hatchet | hatchet.metal |
+| Salvaged Icepick | icepick.salvaged |
+| Salvaged Axe | axe.salvaged |
+| Salvaged Hammer | hammer.salvaged |
+| Jackhammer | jackhammer |
+| Chainsaw | chainsaw |
+| Torch | torch |
+| Binoculars | binoculars |
+| Camera | camera.static |
+| Flare | flare |
+| Flashlight | flashlight |
+| Wire Tool | wiretool |
+| Hose Tool | hosetool |
+
+## Weapons (Rifles & SMGs)
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Assault Rifle (AK47) | rifle.ak |
+| LR-300 Assault Rifle | rifle.lr300 |
+| Bolt Action Rifle | rifle.bolt |
+| L96 Rifle | rifle.l96 |
+| M39 Rifle | rifle.m39 |
+| MP5A4 | smg.mp5 |
+| Thompson | smg.thompson |
+| Custom SMG | smg.2 |
+| Semi-Automatic Rifle (SAR) | rifle.semiauto |
+| M249 | lmg.m249 |
+| HMLMG | lmg.hmlmg |
+
+## Weapons (Pistols & Shotguns)
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| M92 Pistol | pistol.m92 |
+| Semi-Automatic Pistol (SAP) | pistol.semiauto |
+| Python Revolver | pistol.python |
+| Revolver | pistol.revolver |
+| Prototype 17 | pistol.prototype17 |
+| Eoka Pistol | pistol.eoka |
+| Spas-12 Shotgun | shotgun.spas12 |
+| Pump Shotgun | pump.shotgun |
+| Double Barrel Shotgun | shotgun.double |
+| Waterpipe Shotgun | shotgun.waterpipe |
+
+## Ammunition & Explosives
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| 5.56 Rifle Ammo | ammo.rifle |
+| Explosive 5.56 Rifle Ammo | ammo.rifle.explosive |
+| Incendiary 5.56 Rifle Ammo | ammo.rifle.fire |
+| HV 5.56 Rifle Ammo | ammo.rifle.hv |
+| Pistol Bullet | ammo.pistol |
+| HV Pistol Bullet | ammo.pistol.hv |
+| Incendiary Pistol Bullet | ammo.pistol.fire |
+| 12 Gauge Buckshot | ammo.shotgun |
+| 12 Gauge Slug | ammo.shotgun.slug |
+| Wooden Arrow | ammo.arrow.wooden |
+| HV Arrow | ammo.arrow.hv |
+| Timed Explosive Charge (C4) | explosive.timed |
+| Satchel Charge | explosive.satchel |
+| Rocket | ammo.rocket.basic |
+| High Velocity Rocket | ammo.rocket.hv |
+| Incendiary Rocket | ammo.rocket.fire |
+
+## Medical, Food & Teas
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Medical Syringe | syringe.medical |
+| Large Medkit | medkit |
+| Bandage | bandage |
+| Anti-Radiation Pills | antiradpills |
+| Blood | blood |
+| Small Trout | fish.trout |
+| Cooked Pork | pork.cooked |
+| Pure Ore Tea | oretea.pure |
+| Pure Wood Tea | woodtea.pure |
+| Pure Max Health Tea | maxhealthtea.pure |
+| Pure Scrap Tea | scraptea.pure |
+
+## Weapon Attachments
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Simple Sight | weapon.mod.simplesight |
+| Holosight | weapon.mod.holosight |
+| 4x Zoom Scope | weapon.mod.8x.scope |
+| 16x Zoom Scope | weapon.mod.16x.scope |
+| Silencer | weapon.mod.silencer |
+| Muzzle Brake | weapon.mod.muzzlebrake |
+| Muzzle Boost | weapon.mod.muzzleboost |
+| Flashlight | weapon.mod.flashlight |
+| Laser Sight | weapon.mod.lasersight |
+
+## Clothing & Armor (PvP Gear)
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Metal Facemask | metal.facemask |
+| Metal Chest Plate | metal.plate.torso |
+| Road Sign Jacket | roadsign.jacket |
+| Road Sign Kilt | roadsign.kilt |
+| Coffee Can Helmet | coffeecan.helmet |
+| Wood Armor Helmet | wood.armor.helmet |
+| Wood Chest Plate | wood.armor.jacket |
+| Wood Armor Pants | wood.armor.pants |
+| Wolf Beanie | wolf.beanie |
+| Hazmat Suit | hazmatsuit |
+| Arctic Suit | hazmatsuit.arcticsuit |
+| Ninja Suit | attire.ninja.suit |
+| Hoodie | hoodie |
+| Pants | pants |
+| Tactical Gloves | tactical.gloves |
+| Leather Gloves | gloves.leather |
+| Frog Boots | boots.frog |
+| Night Vision Goggles | nvg.lowquality |
+
+## Electricity & Industrial (Auto-Base)
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Large Solar Panel | solarpanel.large |
+| Wind Turbine | generator.wind.static |
+| Large Rechargeable Battery | battery.rechargeable.large |
+| Small Rechargeable Battery | battery.rechargeable.small |
+| Switch | electric.switch |
+| Pressure Pad | electric.pressurepad |
+| HBHF Sensor | hbhfsensor |
+| Laser Detector | electric.laserdetector |
+| Timer | electric.timer |
+| OR Switch | electric.orswitch |
+| AND Switch | electric.andswitch |
+| XOR Switch | electric.xorswitch |
+| Electrical Branch | electrical.branch |
+| Power Combiner | electrical.combiner |
+| Splitter | electric.splitter |
+| Industrial Conveyor | industrial.conveyor |
+| Industrial Crafter | industrial.crafter |
+| Industrial Splitter | industrial.splitter |
+| Industrial Combiner | industrial.combiner |
+| Storage Adaptor | storage.monitor |
+
+## Vehicles & Parts
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Minicopter | minicopter.entity |
+| Scrap Transport Heli | scraptransportheli.entity |
+| Attack Helicopter | attackhelicopter |
+| Rowboat | rowboat |
+| RHIB | rhib |
+| Tugboat | tugboat |
+| Kayak | kayak |
+| Submarine (Solo) | submarinesolo.entity |
+| Submarine (Duo) | submarineduo.entity |
+| High Quality Carburetor | car.engine.carburetor.tier3 |
+| High Quality Crankshaft | car.engine.crankshaft.tier3 |
+| High Quality Pistons | car.engine.pistons.tier3 |
+
+## Deployables & Storage
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Large Wood Box | box.wooden.large |
+| Small Wood Box | wood.storage |
+| Metal Chest | box.metal.large |
+| Tool Cupboard | cupboard.tool |
+| Large Furnace | furnace.large |
+| Small Furnace | furnace |
+| Industrial Smelter | industrial.smelter |
+| Research Table | research.table |
+| Repair Bench | repairbench |
+| Mixing Table | mixingtable |
+| Sleeping Bag | sleepingbag |
+| Bed | bed |
+| Composter | composter |
+| Water Barrel | water.barrel.b |
+| Locker | locker |
+
+## Base Defense & Traps
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Auto Turret | autoturret |
+| Flame Turret | flameturret |
+| Shotgun Trap | guntrap |
+| SAM Site | sam.site.static |
+| Wooden Floor Spikes | spikes.floor |
+| Land Mine | landmine |
+| Snap Trap | trap.bear |
+| Tesla Coil | teslacoil |
+| Barbed Wooden Barricade | barricade.wood.mesh |
+| Metal Barricade | barricade.metal |
+| Concrete Barricade | barricade.concrete |
+| Stone Barricade | barricade.stone |
+
+## Miscellaneous & Roleplay
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Acoustic Guitar | acoustic.guitar |
+| Piano | piano |
+| Trumpet | trumpet |
+| Flute | flute |
+| Jerry Can Guitar | guitar.jerrycan |
+| Boom Box | boombox |
+| Cassette Recorder | cassetterecorder |
+| Megaphone | megaphone |
+| Pookie Bear | pookiebears |
+| Dice | dice |
+| Note | note |
+| Paper | paper |
+| Mailbox | mailbox |
+
+## Server Admin Special (Non-Craftable)
+| In-Game Name | Shortname (Item ID) |
+| :--- | :--- |
+| Supply Signal | supply.signal |
+| MLRS Aiming Module | mlrs.aiming.module |
+| MLRS Rocket | ammo.rocket.mlrs |
+| CCTV Camera | cctv.camera |
+| Targeting Computer | targeting.computer |
+| Keycard (Green) | keycardgreen |
+| Keycard (Blue) | keycardblue |
+| Keycard (Red) | keycardred |
+| Chip Blueprints | blueprintbase |
 
 ---
 © 2026 VoidLabs.
