@@ -11,12 +11,12 @@ RustBinder is a passion project that I hope to get on Steam as a Free-to-play ap
 
 Buy Me A Coffee: [https://buymeacoffee.com/rustforgedev](https://buymeacoffee.com/rustforgedev) 
 
-Join the VoidLabs RustForge Discord for Support & Pack Sharing: [https://discord.gg/tfwf9Qr7rG](https://discord.gg/tfwf9Qr7rG)
+Join the Void Tech Studios RustForge Discord for Support & Pack Sharing: [https://rustbinder.us/invite](https://rustbinder.us/invite)
 
 ## Download & Resources
 NexusMods Page: [https://www.nexusmods.com/rust/mods/13](https://www.nexusmods.com/rust/mods/13)
 
-Full Commands & Binds Reference List: [https://github.com/V0idpool/RustBinder/blob/main/Commands/RustCommandList.md](https://github.com/V0idpool/RustBinder/blob/main/Commands/RustCommandList.md)
+Full Commands & Binds Reference List: [https://rustbinder.us/rbcommands](https://rustbinder.us/rbcommands)
 
 ## The Command Pack System
 
